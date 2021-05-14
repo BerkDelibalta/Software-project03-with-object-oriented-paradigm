@@ -40,8 +40,8 @@ public class User {
             .mapToInt(Reservation::getDuration)
             .average().orElse(0); }
 
-    public void addReservation(Reservation r) {
-        reservations.add(r);
+    public void addReservation(Reservation reservation) {
+        reservations.add(reservation);
     }
 
     public List<Double> getPoints() {
