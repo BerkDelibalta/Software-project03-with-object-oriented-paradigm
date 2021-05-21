@@ -2,7 +2,6 @@ package rentacar;
 
 
 import java.util.*;
-
 import static java.util.stream.Collectors.*;
 import static java.util.Comparator.*;
 
@@ -35,23 +34,16 @@ public class Agency {
 
 	public void definePoints(double... points) throws AgencyException {
 
-		int index;
-		List<Double> pointsList=new LinkedList<>();
-		List<Double> SortedPointsList=new LinkedList<>();
-
+		int index=0;
 
 		for(double point : points){
-			pointsList.add(point);
-			SortedPointsList.add(point);
-		}
 
-		Collections.sort(SortedPointsList);
-		if(!pointsList.equals(SortedPointsList))
-			throw new AgencyException();
+			if(index>=1 && points[index]<=points[index-1]) throw new AgencyException();
 
+			pointsOfCategories.put(Categories[index],point);
 
-		for(index=0;index<points.length;++index) {
-			pointsOfCategories.put(Categories[index],points[index]);
+			++index;
+
 		}
 
 	}

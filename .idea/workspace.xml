@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625aafbb-147a-4cef-84bb-8e493a3a0d46" name="Default Changelist" comment="" />
+    <list default="true" id="625aafbb-147a-4cef-84bb-8e493a3a0d46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rentacar/Agency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rentacar/Agency.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Software-project03-with-object-oriented-programming-paradigm" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -27,10 +35,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/rentacar/User.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/rentacar/Vehicle.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/testRentACar.jar!/it/polito/po/test/TestR4R5.class" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/rentacar/Reservation.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/rentacar/Agency.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/rentacar/Reservation.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Exam20200727_RentACar_sol/src/rentacar/User.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/rentacar/Vehicle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Exam20200727_RentACar_sol/src/rentacar/Agency.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rdRhrpdA3Te6GR3MAeTOAokFsC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Subversion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
@@ -139,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AllTests (1)" />
-        <item itemvalue="JUnit.AllTests" />
         <item itemvalue="JUnit.TestR4R5.testEvaluateUsers (2)" />
-        <item itemvalue="JUnit.TestApp" />
         <item itemvalue="JUnit.TestR4R5.testEvaluateUsers (1)" />
+        <item itemvalue="JUnit.TestApp" />
+        <item itemvalue="JUnit.AllTests" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +187,13 @@
       <workItem from="1620339248948" duration="495000" />
       <workItem from="1620339870456" duration="381000" />
       <workItem from="1620986738707" duration="3187000" />
-      <workItem from="1620990324723" duration="309000" />
+      <workItem from="1620990324723" duration="515000" />
+      <workItem from="1620998835429" duration="1187000" />
+      <workItem from="1621004358002" duration="52000" />
+      <workItem from="1621005121424" duration="341000" />
+      <workItem from="1621011592865" duration="338000" />
+      <workItem from="1621086931653" duration="609000" />
+      <workItem from="1621583414283" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes made on methods in Facade class Agency and the user class,the problems all solved">
       <created>1620990418939</created>
@@ -186,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620990418939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some changes made on methods in Facade class Agency and the user class,the problems all solved">
+      <created>1620990658786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620990658786</updated>
+    </task>
+    <task id="LOCAL-00003" summary="just a parameter name change in a method">
+      <created>1620999842890</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620999842890</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some changes made on methods in Facade class Agency and the user class,the problems all solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some changes made on methods in Facade class Agency and the user class,the problems all solved" />
+    <MESSAGE value="just a parameter name change in a method" />
+    <option name="LAST_COMMIT_MESSAGE" value="just a parameter name change in a method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -205,6 +236,9 @@
       <FILTER>it.polito.po.test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Software_project03_with_object_oriented_programming_paradigm_master$TestR4R5_testEvaluateUsers__1_.ic" NAME="TestR4R5.testEvaluateUsers (1) Coverage Results" MODIFIED="1619452484211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>it.polito.po.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Software_project03_with_object_oriented_programming_paradigm$AllTests__1_.ic" NAME="AllTests (1) Coverage Results" MODIFIED="1620999854557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>it.polito.po.test.*</FILTER>
     </SUITE>
   </component>
