@@ -34,13 +34,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/rentacar/User.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/testRentACar.jar!/it/polito/po/test/TestR4R5.class" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/rentacar/Agency.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/rentacar/Reservation.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Exam20200727_RentACar_sol/src/rentacar/User.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/rentacar/Vehicle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/rentacar/Agency.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Exam20200727_RentACar_sol/src/rentacar/Agency.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/rentacar/Vehicle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/rentacar/Reservation.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/rentacar/User.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rdRhrpdA3Te6GR3MAeTOAokFsC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -193,7 +193,12 @@
       <workItem from="1621005121424" duration="341000" />
       <workItem from="1621011592865" duration="338000" />
       <workItem from="1621086931653" duration="609000" />
-      <workItem from="1621583414283" duration="687000" />
+      <workItem from="1621583414283" duration="1398000" />
+      <workItem from="1621627328311" duration="424000" />
+      <workItem from="1621638672787" duration="252000" />
+      <workItem from="1621676419136" duration="161000" />
+      <workItem from="1621794123206" duration="189000" />
+      <workItem from="1622200771979" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes made on methods in Facade class Agency and the user class,the problems all solved">
       <created>1620990418939</created>
@@ -216,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620999842890</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code refactorization on the method so called &quot;definePoints&quot;">
+      <created>1621584385939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621584385940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +237,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some changes made on methods in Facade class Agency and the user class,the problems all solved" />
     <MESSAGE value="just a parameter name change in a method" />
-    <option name="LAST_COMMIT_MESSAGE" value="just a parameter name change in a method" />
+    <MESSAGE value="Code refactorization on the method so called &quot;definePoints&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactorization on the method so called &quot;definePoints&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

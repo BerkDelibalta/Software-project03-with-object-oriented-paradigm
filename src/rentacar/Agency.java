@@ -2,6 +2,7 @@ package rentacar;
 
 
 import java.util.*;
+
 import static java.util.stream.Collectors.*;
 import static java.util.Comparator.*;
 
@@ -9,7 +10,6 @@ import static java.util.Comparator.*;
 public class Agency {
 	// to be given, remains public
 	public static final int NO_VEHICLE = -1;
-	private Character [] Categories={'A','B','C','D','E','F','G'};
 	private  int vehicleId=-1;
 	private  int userId=-1;
 	private Map<Character,Double> pointsOfCategories = new HashMap<>();
@@ -39,8 +39,8 @@ public class Agency {
 		for(double point : points){
 
 			if(index>=1 && points[index]<=points[index-1]) throw new AgencyException();
-
-			pointsOfCategories.put(Categories[index],point);
+			char category = (char)('A' + index);
+			pointsOfCategories.put(category,point);
 
 			++index;
 
@@ -361,19 +361,19 @@ public class Agency {
 
 	public Map<Long, List<String>> getCategoriesForVehicleNumber() {
 
-	Map<Long,List<String>> vehicleMap= vehicles.stream()
-			.collect(groupingBy(Vehicle::getCategory,TreeMap::new,counting()))
-			.entrySet()
-			.stream()
-			.collect(groupingBy(Map.Entry::getValue, TreeMap::new
-					,mapping(e->e.getKey().toString(),toList())));
 
+		Map<String, Long> categories =  vehicles.stream()
+				.collect(groupingBy(p -> String.valueOf(p.getCategory()),
+						TreeMap::new,
+						counting()));
 
-	vehicles.stream()
-			.map(Vehicle::getCategory)
-			.forEach(r->vehicleMap.putIfAbsent(0L,Arrays.asList("G")));
+		pointsOfCategories.keySet().stream()
+				.forEach(r -> categories.putIfAbsent(String.valueOf(r), 0L));
 
-	return vehicleMap;
+		return categories.entrySet().stream()
+				.collect(groupingBy(Map.Entry::getValue,
+						TreeMap::new,
+						mapping(Map.Entry::getKey, toList())));
 
 	}
 
